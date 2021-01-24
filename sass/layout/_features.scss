@@ -26,7 +26,6 @@
   background-color: $secondary-background-color;
 }
 .features-list-title {
-  text-align: center;
   font-size: 14px;
   line-height: 1.143;
   margin-bottom: 10px;
@@ -36,6 +35,9 @@
 @media screen and (max-width: 767px) {
   .features-list-item:not(:last-child) {
     margin-bottom: 30px;
+  }
+  .features-list-title {
+    text-align: center;
   }
 }
 
